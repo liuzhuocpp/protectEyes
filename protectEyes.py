@@ -31,7 +31,7 @@ def waitDuration(duration):
   printDuration = 60
   printNumber = duration / printDuration
   while printNumber > 0:
-    print "After " + str(printNumber * printDuration / 60) + " minutes, your pc will be locked"
+    print "After " + str(printNumber * printDuration / 60) + " minutes, your pc will be locked. Now time: " + str(time.asctime ())
     printNumber -= 1
     time.sleep(printDuration)
 
