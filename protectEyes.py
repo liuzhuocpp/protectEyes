@@ -23,7 +23,7 @@ def waitUntilUnlock():
       break
     else:
       print time.asctime (), "still locked"
-      time.sleep (2)
+      time.sleep (60)
 
 
 
